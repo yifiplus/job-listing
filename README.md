@@ -1,7 +1,7 @@
 # README
 
 
-job-lingting 第一周作业
+本项目内部分代码截取自www.100offer.com.作为学习测试用途。如有侵权请告知~
 
 
 This README would normally document whatever steps are necessary to get the

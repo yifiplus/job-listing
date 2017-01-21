@@ -102,11 +102,30 @@ body
 {
     outline: none;
     box-shadow: none;
-}.banner-container .join-container button
+}.banner-container
+.join-container button
 {
-    font-size: 14px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;font-size: 18px;line-height: 40px;line-height: 50px;
+    font-size: 14px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;font-size: 18px;line-height: 40px;line-height: 50px;
 
-    display: inline-block;width: 130px;width: 100%;height: 40px;height: 50px;margin-top: 20px;padding: 0;cursor: pointer;-webkit-transition: all .2s ease-in 0s;-moz-transition: all .2s ease-in 0s;-o-transition: all .2s ease-in 0s;transition: all .2s ease-in 0s;text-align: center;vertical-align: middle;color: #fff;border: none;border-radius: 2px;border-radius: 2px;background-color: #17b1f7;text-shadow: none;
+    display: inline-block;
+
+    width: 130px;
+    width: 100%;
+    height: 40px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-radius: 2px;
+    background-color: #17b1f7;
+    text-shadow: none;
 }.banner-container .join-container button.first
 {
     border-radius: 2px 0 0 2px;
@@ -124,7 +143,13 @@ body
     outline: none;
 }.banner-container .join-container button.disabled
 {
-    cursor: not-allowed;pointer-events: none;opacity: .65;-webkit-box-shadow: none;box-shadow: none;filter: alpha(opacity=65);
+    cursor: not-allowed;
+    pointer-events: none;
+
+    opacity: .65;
+    box-shadow: none;
+
+    filter: alpha(opacity=65);
 }.banner-container .join-container button:focus
 {
     color: #333;
@@ -147,132 +172,6 @@ body
     font-size: 14px;
 
     margin-top: 25px;text-align: center;color: white;
-}.active-company-container
-{
-    padding-top: 80px;padding-bottom: 80px;
-}.active-company-container .market-select-container
-{
-    margin: 50px auto 0;
-
-    text-align: center;
-}.active-company-container .market-select-container .market-tag
-{
-    display: inline-block;width: 33.33%;max-width: 150px;cursor: pointer;
-}.active-company-container .market-select-container .market-tag .map-tag
-{
-    display: inline-block;margin-right: 10px;vertical-align: middle;
-}.active-company-container .market-select-container .market-tag .map-tag.selected
-{
-    display: none;
-}.active-company-container .market-select-container .market-tag span
-{
-    font-size: 20px;
-
-    display: inline-block;vertical-align: middle;color: #666;
-}.active-company-container .market-select-container .market-tag.selected .map-tag
-{
-    display: none;
-}.active-company-container .market-select-container .market-tag.selected .map-tag.selected
-{
-    display: inline-block;
-}.active-company-container .market-select-container .market-tag.selected span
-{
-    color: #17b1f7;
-}.active-company-container .active-company-wrapper
-{
-    display: none;
-
-    margin: 50px auto 0;text-align: center;
-}.active-company-container .active-company-wrapper.selected
-{
-    display: block;
-}.active-company-container .active-company-wrapper .active-company-line
-{
-    display: inline-block;vertical-align: middle;
-}.active-company-container .active-company-wrapper .desc
-{
-    font-size: 20px;margin-top: 40px;
-
-    color: #808080;
-}.active-company-container .active-company-wrapper.america
-{
-    padding-top: 49px;
-}.talent-story-container
-{
-    padding-top: 80px;padding-bottom: 80px;text-align: center;
-}.talent-story-container .talent-story-wrapper
-{
-    margin: 50px auto 0;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-img-container,
-.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content-container
-{
-    overflow: hidden;
-
-    height: 280px;background-color: white;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story:hover .talent-story-image
-{
-    height: 110%;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-image
-{
-    position: relative;left: 50%;
-
-    height: 100%;-webkit-transition: all .5s ease-in 0s;-moz-transition: all .5s ease-in 0s;-o-transition: all .5s ease-in 0s;transition: all .5s ease-in 0s;-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content
-{
-    padding: 0 30px;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content .name
-{
-    font-size: 16px;
-
-    margin-top: 30px;color: #333;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content .company
-{
-    font-size: 20px;
-
-    margin-top: 15px;color: #0991ce;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content .post
-{
-    font-size: 20px;
-
-    margin-top: 5px;color: #0991ce;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content .desc
-{
-    font-size: 14px;
-
-    margin-top: 20px;color: #808080;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story .talent-story-content .readmore
-{
-    font-size: 14px;
-
-    display: inline-block;margin-top: 20px;color: #a6a6a6;
-}.talent-story-container .talent-story-wrapper .talent-story-group .talent-story:hover .readmore
-{
-    color: #17b1f7;
-}.company-blog-container
-{
-    padding-top: 80px;padding-bottom: 80px;text-align: center;
-}.company-blog-container .company-blog-wrapper
-{
-    margin: 50px auto 0;
-}.company-blog-container .company-blog-wrapper .company-blog
-{
-    position: relative;overflow: hidden;height: 285px;color: white;
-}.company-blog-container .company-blog-wrapper .company-blog:hover img
-{
-    width: 110%;
-}.company-blog-container .company-blog-wrapper .company-blog img
-{
-    position: absolute;top: 0;left: 0;width: 100%;-webkit-transition: all .5s ease-in 0s;-moz-transition: all .5s ease-in 0s;-o-transition: all .5s ease-in 0s;transition: all .5s ease-in 0s;
-}.company-blog-container .company-blog-wrapper .company-blog .title
-{
-    font-size: 24px;
-
-    position: absolute;right: 20px;bottom: 40px;left: 20px;
-}.company-blog-container .company-blog-wrapper .company-blog .read
-{
-    font-size: 14px;
-
-    position: absolute;right: 30px;bottom: 40px;left: 20px;
 }.service-container
 {
     padding-top: 80px;padding-bottom: 80px;
@@ -311,7 +210,7 @@ body
         height: 600px;
     }.banner-container .width-wrapper
     {
-        position: relative;top: 48%;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);
+        position: relative;top: 48%;
     }.banner-container .slogan
     {
         font-size: 44px;

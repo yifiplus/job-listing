@@ -27,6 +27,25 @@
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 */
 
+.custab
+{
+    margin: 5% 0;
+    padding: 5px;
+
+    transition: .5s;
+
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 2px #ccc;
+}
+
+.custab:hover
+{
+    transition: .5s;
+
+    box-shadow: 3px 3px 0 transparent;
+}
+
+
 body
 {
     min-width: 0;
@@ -85,7 +104,7 @@ body
     box-shadow: none;
 }.banner-container .join-container button
 {
-    font-size: 14px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;font-size: 18px;line-height: 40px;line-height: 50px;
+    font-size: 14px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;font-size: 18px;line-height: 40px;line-height: 50px;
 
     display: inline-block;width: 130px;width: 100%;height: 40px;height: 50px;margin-top: 20px;padding: 0;cursor: pointer;-webkit-transition: all .2s ease-in 0s;-moz-transition: all .2s ease-in 0s;-o-transition: all .2s ease-in 0s;transition: all .2s ease-in 0s;text-align: center;vertical-align: middle;color: #fff;border: none;border-radius: 2px;border-radius: 2px;background-color: #17b1f7;text-shadow: none;
 }.banner-container .join-container button.first
